@@ -16,3 +16,8 @@ This project detects bias in datasets...
 
 ## Note
 This is a prototype. AI and API integration is planned.
+
+# FairCheck AI
+
+## Live Demo
+https://wondrous-platypus-29ac27.netlify.app/
