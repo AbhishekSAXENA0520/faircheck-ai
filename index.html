@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FairCheck AI</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>FairCheck AI</h1>
+    <p>Bias Detection and Fair Decision Auditor</p>
+
+    <textarea id="analysisInput" placeholder="Enter text..."></textarea>
+
+    <button id="analyzeBtn">Analyze</button>
+
+    <div id="resultsSection" class="hidden">
+      <p id="messageBox"></p>
+      <h2 id="fairnessScore">0/100</h2>
+      <p id="biasText">No bias detected</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
